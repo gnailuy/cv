@@ -18,7 +18,7 @@
 \moderncvtheme[grey]{classic}
 
 % DOCUMENT LAYOUT
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.85]{geometry}
 
 \setlength{\hintscolumnwidth}{2.7cm} % if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}   % only for the classic theme
@@ -47,7 +47,7 @@
 \firstname{Yuliang}
 \familyname{Jin}
 %\title{Yuliang's Résumé}                     % optional, remove the line if not wanted
-\address{1406, \# 3 Fangushuijun, \#2 Tuofangying S. Rd.}{Chaoyang, Beijing} % optional, remove the line if not wanted
+%\address{1406, \# 3 Fangushuijun, \#2 Tuofangying S. Rd.}{Chaoyang, Beijing} % optional, remove the line if not wanted
 \mobile{\texttt{+86 18511663768}}             % optional, remove the line if not wanted
 %\phone{\texttt{+1 (347) 450-5748}}           % optional, remove the line if not wanted
 %\fax{fax}                                    % optional, remove the line if not wanted
@@ -79,7 +79,7 @@
         \begin{itemize}
             \item Five years of experience in the Hadoop/Spark ecosystems and backend development.
             \item Senior software engineer of umeng.com, the largest mobile APP analytics provider in China.
-            \item Leading programmer of several data processing, backend web API, and data mining systems.
+            \item Leading programmer of several data processing, backend API, and data mining systems.
         \end{itemize}
     }{}{}{}{}
 
@@ -102,19 +102,19 @@
 \section{Technical Skills}
     \cvline{}{
         \begin{itemize}
+            \item Strong background in computer science, programming, and algorithms.
             \item Proficient in ETL development in the Hadoop/Spark ecosystems, including MapReduce, Spark, Kafka, and Spark Streaming.
-            \item Proficient in backend development, including frameworks like Flask, Netty, SpringBoot, etc..
+            \item Proficient in backend development, including frameworks like Flask, Netty, SpringBoot.
             \item Skilled in the Java, Scala, Python, Golang, and C programming languages.
-            \item Skilled in databases and data warehouse including HBase, Hive, MySQL, Mongo, and Redis.
+            \item Skilled in database and data warehouse including HBase, Hive, MySQL, Mongo, and Redis.
             \item Skilled in Docker and the microservices architecture.
             \item Skilled in Linux, Git, and other command line toolkits.
             \item Familiar with cluster maintenance, including Yarn, HDFS, Zookeeper, etc..
-            \item Strong background in computer science and algorithms.
             \item Four years of experience with the GTD\textsuperscript{\textregistered} method and self-motivated.
         \end{itemize}
     }
 
-\cvline{}{}
+%\cvline{}{}
 
 \section{Projects}
     \cventry{2013.04-2017.07}{Data Platform ETL System}{}{}{}{}
@@ -125,21 +125,22 @@
     \cvlistitem{Improve and maintain the job scheduler}
     \cvlistitem{Improve and maintain the unified ID service and other APIs}
     \cvlistitem{Develop and maintain a web crawler to collect mobile APP descriptions}
+    \cvlistitem{Develop a look-alike pipeline with Spark MLlib to discover similar users for given IDs}
     \cvlistitem{Stack: Java, Scala, Python, Hadoop, MapReduce, Spark, HBase, Hive, Netty}
 
     \cventry{2017.08-2017.10}{Wind Turbine Performance Reporting System}{}{}{}{}
     \subsection{\small\emph{Startup Team, Main Developer}}
     \cvlistitem{Build a Python software to generate performance reports for wind turbines}
     \cvlistitem{Collect and transform data from different SCADA systems}
-    \cvlistitem{Calculate metrics, draw graphs(such as power curves), and render a PDF/HTML report}
-    \cvlistitem{Modularized subtask design and ability to run in parallel}
+    \cvlistitem{Calculate metrics, draw graphs (such as power curves), and render a PDF/HTML report}
+    \cvlistitem{Achieve a modularized subtask design and the ability to run in parallel}
     \cvlistitem{Stack: Python, NumPy, SciPy, Matplotlib, Pandoc}
 
     \cventry{2017.10-2018.04}{Risk Management Module}{}{}{}{}
     \subsection{\small\emph{Startup Team, Main Developer}}
     \cvlistitem{Build a risk management module for a payday loan system}
-    \cvlistitem{For each order, collect data from various data sources and third-party APIs}
-    \cvlistitem{Modularized, hot-pluggable, and interdependent submodules}
+    \cvlistitem{Collect data from various data sources and third-party APIs into a central data store}
+    \cvlistitem{Modularized, hot-pluggable, and interdependent submodules in a DAG flow}
     \cvlistitem{Hot-swappable rule registry for scoring and decision making}
     \cvlistitem{RESTful API for result querying}
     \cvlistitem{Ability to scale out easily}
