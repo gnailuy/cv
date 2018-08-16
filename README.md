@@ -1,4 +1,4 @@
-# Yuliang's Resumé
+# Yuliang's Résumé
 
 ## Prerequisite
 
