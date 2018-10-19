@@ -62,6 +62,13 @@
 %\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 %\makeatother
 
+% cover letter information
+\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today}
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
 % bibliography with mutiple entries
 %\usepackage{multibib}
 %\newcites{book,misc}{{Books},{Others}}
@@ -71,6 +78,20 @@
 % content
 %----------------------------------------------------------------------------------
 \begin{document}
+
+{
+\fancyfoot[r]{}             % No page/lastapage in the letter
+\setcounter{page}{0}        % Change if letter is more than 1 page
+\makelettertitle            % Print letter title
+Lore ipum dolor             % Letter body
+sit amet, consectetuer
+adiscipliging elit.
+Up purus ...
+
+\makeletterclosing          % Print letter signature
+\newpage
+% this is the page "1/1" % (no number when total pages = 1)
+}
 
 \maketitle
 
