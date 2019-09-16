@@ -10,7 +10,7 @@ pdf: cv.tex
 	$(TEX) cv.tex
 
 clean:
-	-rm *.aux *.out *.log
+	-rm *.aux *.out *.log *.bbl *.blg
 
 distclean: clean
 	-rm cv.pdf
