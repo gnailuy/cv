@@ -7,3 +7,4 @@ RUN initexmf --update-fndb --admin && \
     initexmf --mklinks --force --admin && \
     mpm --find-updates --admin && \
     mpm --update --admin
+
