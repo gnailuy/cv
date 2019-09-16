@@ -49,11 +49,11 @@
 %\title{Yuliang's Résumé}                     % optional, remove the line if not wanted
 %\address{1406, \# 3 Fangushuijun, \#2 Tuofangying S. Rd.}{Chaoyang, Beijing} % optional, remove the line if not wanted
 \mobile{\texttt{+86 18511663768}}             % optional, remove the line if not wanted
-%\phone{\texttt{+1 (347) 450-5748}}           % optional, remove the line if not wanted
+\phone{\texttt{+86 (010) 5917 2968}}          % optional, remove the line if not wanted
 %\fax{fax}                                    % optional, remove the line if not wanted
-\email{jyl198803@gmail.com}                   % optional, remove the line if not wanted
-\homepage{gnailuy.com}                        % optional, remove the line if not wanted
-\extrainfo{github.com/gnailuy}                % optional, remove the line if not wanted
+\email{yuljin@microsoft.com}                  % optional, remove the line if not wanted
+%\homepage{gnailuy.com}                        % optional, remove the line if not wanted
+%\extrainfo{github.com/gnailuy}                % optional, remove the line if not wanted
 
 %\photo[64pt]{dont_panic.png} % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 %\quote{Circuit bender, kernel hacker, robot builder, urban explorer, trombone playerer.}
@@ -74,131 +74,63 @@
 
 \maketitle
 
-\section{Profile}
-    \cvline{}{
-        \begin{itemize}
-            \item Five years of experience in the Hadoop/Spark ecosystems and backend development.
-            \item Senior software engineer of umeng.com, the largest mobile app analytics provider in China.
-            \item Leading programmer of several data processing, backend API, and data mining systems.
-            \item Four years of experience with the GTD\textsuperscript{\textregistered} method, self-driven and motivated.
-        \end{itemize}
-    }{}{}{}{}
-
 \section{Work Experience}
-    \cventry{2017.08-2018.06}{Startup Team}{Data and Backend R\&D Expert}{Beijing}{}{}
-    \cventry{2013.04-2017.07}{Umeng, Alibaba}{Senior Data Platform Engineer}{Beijing}{}{}
+    \cventry{2019.01-now}{Microsoft Asia-Pacific R\&D Group}{Software Engineer}{Beijing}{}{
+        \begin{itemize}
+            \item Develop desktop tools for the Azure Stream Analytics on Visual Studio and Visual Studio Code
+            \item Develop and maintain Azure HDInsight clusters and improve customer experience
+        \end{itemize}
+    }
+    \cventry{2017.08-2018.06}{Huirongzhitong Technology Co. Ltd.}{Data and Backend R\&D Expert}{Beijing}{}{
+        \begin{itemize}
+            \item Build Python software to generate performance reports for wind turbines
+            \item Calculate metrics, draw graphs (such as power curves), and render a PDF/HTML report
+            \item Build a risk management module for a payday loan system
+            \item Build a hot-swappable rule registry for scoring and decision making
+        \end{itemize}
+    }
+    \cventry{2013.04-2017.07}{Youmengtongxin Technology Co. Ltd.}{Senior Data Platform Engineer}{Beijing}{}{
+        \begin{itemize}
+            \item Develop and maintain MapReduce/Spark jobs for the statistical analyses of millions of apps
+            \item Reconstruct ETL related jobs and pipelines to improve stability and fix bugs
+            \item Upgrade and expand the data platform cluster (to over 1,000 nodes) as the business grows
+            \item Develop and maintain the job scheduler, an unified ID service and other APIs
+        \end{itemize}
+    }
 
 \cvline{}{}
 
 \section{Education}
     \cventry{2010.09-2013.03}{Master of Computer Engineering}{Harbin Engineering University}{}{}{
         \begin{itemize}
-            \item \textit{Honors:} National Scholarship
+            \item Advanced Calculus, Statistics, and Linear Algebra
+            \item Combinatorial Mathematics
+            \item Stochastic Process
+            \item Compute Theory
+            \item Computer Architecture and System Design
+            \item Artificial Intelligence
         \end{itemize}
     }
-    \cventry{2006.09-2010.07}{Bachelor of Computer Science and Technology}{Harbin Engineering University}{}{}{}
-
-\cvline{}{}
-
-\section{Technical Skills}
-    \cvline{}{
+    \cventry{2006.09-2010.07}{Bachelor of Computer Science and Technology}{Harbin Engineering University}{}{}{
         \begin{itemize}
-            \item Strong background in computer science, programming, and algorithms.
-            \item Proficient in ETL development in the Hadoop/Spark ecosystems, including MapReduce, Spark, Kafka, and Spark Streaming.
-            \item Proficient in backend development, including frameworks like Flask, Netty, SpringBoot.
-            \item Skilled in Java, Scala, Python, Golang, and C programming languages.
-            \item Skilled in database and data warehouse including HBase, Hive, MySQL, Mongo, and Redis.
-            \item Skilled in Docker and the microservices architecture.
-            \item Skilled in Linux, Git, and other command line toolkits.
-            \item Familiar with cluster maintenance, including Yarn, HDFS, Zookeeper, etc..
+            \item Calculus, Statistics, and Linear Algebra
+            \item Programming Languages
+            \item Algorithms and Data Structure
+            \item Computer Architecture
+            \item Operating System
+            \item Computer Network
+            \item Database and Data Management
+            \item Computer Software Engineering
         \end{itemize}
     }
-
-%\cvline{}{}
-
-\section{Projects}
-    \cventry{2013.04-2017.07}{Data Platform ETL System}{}{}{}{}
-    \subsection{\small\emph{Umeng, Senior Data Platform Engineer}}
-    \cvlistitem{Develop and maintain MapReduce/Spark jobs for the statistical analyses of millions of apps}
-    \cvlistitem{Reconstruct ETL related jobs and pipelines to improve stability and fix bugs}
-    \cvlistitem{Upgrade and expand the data platform cluster (to over 1,000 nodes) as the business grows}
-    \cvlistitem{Improve and maintain the job scheduler}
-    \cvlistitem{Improve and maintain the unified ID service and other APIs}
-    \cvlistitem{Develop and maintain one of the web crawlers used to collect mobile app descriptions}
-    \cvlistitem{Develop a look-alike pipeline with Spark MLlib to discover similar users for given IDs}
-    \cvlistitem{Stack: Java, Scala, Python, Hadoop, MapReduce, Spark, HBase, Hive, Netty}
-
-    \cventry{2017.08-2017.10}{Wind Turbine Performance Reporting System}{}{}{}{}
-    \subsection{\small\emph{Startup Team, Main Developer}}
-    \cvlistitem{Build Python software to generate performance reports for wind turbines}
-    \cvlistitem{Collect and transform data from different SCADA systems}
-    \cvlistitem{Calculate metrics, draw graphs (such as power curves), and render a PDF/HTML report}
-    \cvlistitem{Achieve a modularized subtask design that enables parallel processing}
-    \cvlistitem{Stack: Python, NumPy, SciPy, Matplotlib, Pandoc}
-
-    \cventry{2017.10-2018.04}{Risk Management Module}{}{}{}{}
-    \subsection{\small\emph{Startup Team, Main Developer}}
-    \cvlistitem{Build a risk management module for a payday loan system}
-    \cvlistitem{Collect data from various sources and third-party APIs into a central data store}
-    \cvlistitem{Create modularized, hot-pluggable, and interdependent submodules in a DAG flow}
-    \cvlistitem{Achieve hot-swappable rule registry for scoring and decision making}
-    \cvlistitem{Develop RESTful APIs for result querying}
-    \cvlistitem{Achieve the ability to scale out easily}
-    \cvlistitem{Stack: Python, Flask, MySQL, Mongo, Redis, Docker}
 
 \cvline{}{}
 
 \section{Languages}
     \cvlanguage{Mandarin}{Native}{}
     \cvlanguage{English}{Professional Working Proficiency}{}
-    \cvlanguage{Italian}{Elementary}{Self-taught}
 
 \end{document}
-
-%\section{Experience}
-%\subsection{Vocational}
-%\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline%
-%Detailed achievements:%
-%\begin{itemize}%
-%\item Achievement 1;
-%\item Achievement 2, with sub-achievements:
-%  \begin{itemize}%
-%  \item Sub-achievement (a);
-%  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-%    \begin{itemize}
-%    \item Sub-sub-achievement i;
-%    \item Sub-sub-achievement ii;
-%    \item Sub-sub-achievement iii;
-%    \end{itemize}
-%  \item Sub-achievement (c);
-%  \end{itemize}
-%\item Achievement 3.
-%\end{itemize}}
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newlineDescription line 2}
-%\subsection{Miscellaneous}
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
-
-%\section{Computer skills}
-%\cvcomputer{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-%\cvcomputer{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-%\cvcomputer{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
-
-%\section{Interests}
-%\cvline{hobby 1}{\small Description}
-%\cvline{hobby 2}{\small Description}
-%\cvline{hobby 3}{\small Description}
-
-%\section{Extra 1}
-%\cvlistitem{Item 1}
-%\cvlistitem{Item 2}
-%\cvlistitem[+]{Item 3}            % optional other symbol
-
-%\renewcommand{\listitemsymbol}{-} % change the symbol for lists
-
-%\section{Extra 2}
-%\cvlistdoubleitem{Item 1}{Item 4}
-%\cvlistdoubleitem{Item 2}{Item 5 \cite{book1}}
-%\cvlistdoubleitem{Item 3}{}
 
 % Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
 %\nocite{*}
@@ -214,20 +146,4 @@
 %\bibliographystylemisc{plain}
 %\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
 
-
 %% end of file `template.tex'.
-
-%%
-%% Recommend Letter
-%%
-%% I would like to recommend Yuliang as a new programmer for the company.
-%%
-%% Yuliang Jin is a software engineer with five years of experience in data and backend development. He was a senior software engineer at the data platform of Umeng, Alibaba, which is the largest mobile app analytics provider in China.
-%%
-%% Yuliang has a solid background in computer science, programming, and algorithms. He is skilled in modern programming languages like Java, Scala, Python, and is always open to learning new ones.
-%%
-%% At Alibaba, Yuliang developed and improved hundreds of complicate MapReduce and Spark ETL jobs to achieve fast and accurate statistical reports for millions of mobile apps. As a data platform engineer, he was also responsible for the availability and stability of the cluster and the components running on it, including Yarn, HBase, Zookeeper, Kafka, etc. He also helped in developing and improving several data-outlet APIs and the job scheduler system.
-%%
-%% I'm sure Yuliang would be an excellent member of the team.
-%%
-
