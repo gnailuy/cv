@@ -5,8 +5,8 @@ BIBTEX = docker run -it --rm -v `pwd`/miktex:/miktex/.miktex -v `pwd`:/miktex/wo
 pdf: cv.tex
 	mkdir -p `pwd`/miktex
 	$(TEX) cv.tex
-	$(BIBTEX) cv
-	$(TEX) cv.tex
+	# $(BIBTEX) cv
+	# $(TEX) cv.tex
 	$(TEX) cv.tex
 
 clean:
