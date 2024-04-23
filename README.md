@@ -5,6 +5,18 @@
 * Docker
 * make
 
+## Download the docker image and create the volume for MikTeX
+
+``` bash
+make init
+```
+
+## Update MikTeX packages when needed
+
+``` bash
+make update
+```
+
 ## Make PDF
 
 ``` bash
